@@ -6,8 +6,8 @@ import base.EntityType;
 
 public class KillerCell extends Cell{
 
-	public KillerCell() {
-		super(EntityType.KILLER_CELL);
+	public KillerCell(int x,int y) {
+		super(EntityType.KILLER_CELL,x,y);
 		// TODO Auto-generated constructor stub
 	}
 

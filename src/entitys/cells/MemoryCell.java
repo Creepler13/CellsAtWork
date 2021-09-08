@@ -6,8 +6,8 @@ import base.EntityType;
 
 public class MemoryCell extends Cell{
 
-	public MemoryCell() {
-		super(EntityType.MEMORY_CELL);
+	public MemoryCell(int x,int y) {
+		super(EntityType.MEMORY_CELL,x,y);
 		// TODO Auto-generated constructor stub
 	}
 

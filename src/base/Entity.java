@@ -8,8 +8,10 @@ public abstract class Entity {
 
 	private int x, y;
 
-	public Entity(EntityType type) {
+	public Entity(EntityType type,int x,int y) {
 		this.type = type;
+		setX(x);
+		setY(y);
 		// TODO Auto-generated constructor stub
 	}
 

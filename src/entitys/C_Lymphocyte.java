@@ -7,8 +7,8 @@ import base.EntityType;
 
 public class C_Lymphocyte extends Entity{
 
-	public C_Lymphocyte() {
-		super(EntityType.C_LYMPHOCYTE);
+	public C_Lymphocyte(int x,int y) {
+		super(EntityType.C_LYMPHOCYTE,x,y);
 		// TODO Auto-generated constructor stub
 	}
 

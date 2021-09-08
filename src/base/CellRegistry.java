@@ -19,7 +19,14 @@ public class CellRegistry {
 	}
 
 	public ArrayList<Entity> getEntitys(EntityType type) {
-		return registry.get(type);
+		ArrayList<Entity> entitys;
+		if (registry.containsKey(type))
+			entitys = registry.get(type);
+		else {
+			entitys = new ArrayList<Entity>();
+			registry.put(type, new ArrayList<Entity>());
+		}
+		return entitys;
 	}
 
 	public ArrayList<Entity> getEntitys() {

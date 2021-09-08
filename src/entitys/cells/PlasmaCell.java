@@ -6,8 +6,8 @@ import base.EntityType;
 
 public class PlasmaCell extends Cell{
 
-	public PlasmaCell() {
-		super(EntityType.PLASMA_CELL);
+	public PlasmaCell(int x,int y) {
+		super(EntityType.PLASMA_CELL,x,y);
 		// TODO Auto-generated constructor stub
 	}
 
