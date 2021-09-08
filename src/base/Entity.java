@@ -1,6 +1,8 @@
 package base;
 
-public class Entity {
+import java.awt.Graphics2D;
+
+public abstract class Entity {
 
 	private EntityType type;
 
@@ -30,5 +32,9 @@ public class Entity {
 	public void setY(int y) {
 		this.y = y;
 	}
+
+	public abstract void draw(Graphics2D g2d);
+
+	public abstract void update();
 
 }
