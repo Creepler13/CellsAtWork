@@ -9,6 +9,8 @@ public class Simulation {
 
 	public static CellRegistry registry = new CellRegistry();
 
+	public static int maxNormalCellCount = 50;
+
 	public static void main(String[] args) {
 
 		Window window = new Window(500, 500);
